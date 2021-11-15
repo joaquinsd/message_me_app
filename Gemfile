@@ -60,3 +60,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Add Semantic UI gem for the project
+gem 'semantic-ui-sass'
+gem 'jquery-rails'
