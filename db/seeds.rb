@@ -11,7 +11,7 @@ Message.destroy_all
   User.create(username: "User_#{i}", password: '123456')
 end
 
-10.times do |i|
+3.times do
   u = User.all.sample
-  Message.create(body: "This is a sample message from #{u.username}", user: u)
+  Message.create(body: "This is a sample message", user: u)
 end
